@@ -24,6 +24,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
   return true
 }
+````
 
 ### Explicit criteria
 ````swift
@@ -41,6 +42,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
          print("Skipping review requesting due to OS version")
      }
  })
+````
 
 ### Significant events
  ````swift
@@ -49,6 +51,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
    }
 
    UserActionResponder.shared.significantEventDidOccur(identifier: "Event 1")
+````
 
 ## Contribute
 
