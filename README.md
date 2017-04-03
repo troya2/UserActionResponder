@@ -1,8 +1,32 @@
 # UserActionResponder
 A swift class for performing actions based on app launches and significant events.
 
-## Motivation
-Now that Apple has made SKStoreReviewController, I needed a way to know when to call it.  With UserActionResponder, in a couple of lines of code, you can ask the user for a review after a certain number of launches, significant events, or time since the last update.  There is a setting that causes the criteria to be reset on updates.
+## About
+Now that Apple has made SKStoreReviewController, we need a way to know when to call it.  With `UserActionResponder`, in a couple of lines of code, we can ask the user for a review (or do anything else we want) after a certain number of launches, significant events, or time since the last update.  There is a setting that causes the criteria to be reset on updates.
+
+## Requirements
+
+* Xcode 8
+* Swift 3.1
+* iOS 10.0+
+
+## Features
+
+### Triggers
+* App launch
+* App activation (background -> foreground)
+* Significant events (as many as you want)
+* Days since install/update
+
+### Configuration
+* Can reset after an app update
+* Can trigger repeatedly or just once
+* Can trigger when all criteria match, or when any criteria match
+* Can specify which DispatchQueue on which you are called back
+
+### Persistence
+* Data is store in UserDefaults
+* You can supply the user defaults key to use
 
 ## Usage
 
