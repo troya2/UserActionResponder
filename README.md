@@ -93,7 +93,7 @@ Created and maintained by [**@troya21**](https://twitter.com/troya21).
 
 ## License
 
-`UserActionResponder` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+`UserActionResponder` is released under an MIT License. See `LICENSE` for details.
 
 >**Copyright &copy; 2017-present Troy Anderson.**
 
