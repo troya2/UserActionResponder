@@ -79,7 +79,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Contribute
 
-Please follow these [contribution guidelines](https://github.com/jessesquires/HowToContribute).
+Thank you for considering this project for your contributions.  Please follow these [contribution guidelines](https://github.com/jessesquires/HowToContribute).
+
+### To do
+
+* Tests
+* Cocoapods/Carthage/Swift Package Manager support
+* Boolean logic for criterion
 
 ## Credits
 
