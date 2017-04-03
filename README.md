@@ -89,7 +89,7 @@ Thank you for considering this project for your contributions.  Please follow th
 
 ## Credits
 
-Created and maintained by [**@troya2**]
+Created and maintained by [**@troya21**](https://twitter.com/troya21).
 
 ## License
 
