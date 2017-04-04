@@ -73,7 +73,7 @@ class UserActionResponder {
                 return criteria.contains(where: { $0.matches(info) })
                 
             case .all(let criteria):
-                return criteria.drop(while: { $0.matches(info) }).count == 0
+                return criteria.filter({ !$0.matches(info) }).count == 0
             }
         }
     }
