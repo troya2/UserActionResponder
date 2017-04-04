@@ -25,7 +25,7 @@ Now that Apple has made SKStoreReviewController, we need a way to know when to c
 * Can specify which DispatchQueue on which you are called back
 
 ### Persistence
-* Data is store in UserDefaults
+* Data is stored in UserDefaults
 * You can supply the user defaults key to use
 
 ## Usage
